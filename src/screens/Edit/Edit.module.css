@@ -1,0 +1,25 @@
+.content {
+  grid-area: content;
+  background: rgb(230, 230, 230);
+  padding: 1em;
+}
+
+label {
+  margin: 0 0.5em;
+}
+
+.container {
+  padding: 1em;
+}
+
+.formSection {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+svg {
+  margin: 0 0.5em;
+}

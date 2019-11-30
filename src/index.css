@@ -1,13 +1,21 @@
-body {
+body,
+html {
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a:hover {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "BeyondControl";
+  src: local("BeyondControl"),
+    url("./assets/fonts/BEYONDCONTROL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Palamecia Titling";
+  src: local("Palamecia Titling"),
+    url("./assets/fonts/palamecia-titling.regular.ttf") format("truetype");
 }

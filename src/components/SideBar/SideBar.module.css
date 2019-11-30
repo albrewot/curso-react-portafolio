@@ -1,0 +1,44 @@
+.sidebar {
+  grid-area: sidebar;
+  background: linear-gradient(to right, #da22ff, #9733ee);
+  justify-content: center;
+  padding: 1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 1em 0;
+}
+
+nav li a {
+  color: white;
+  font-weight: 700;
+  opacity: 0.6;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  opacity: 1;
+}
+
+@media (min-width: 1040px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    background: linear-gradient(#da22ff, #9733ee);
+    padding-top: 3em;
+  }
+}
